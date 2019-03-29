@@ -1,14 +1,11 @@
 package org.itstep.util;
 
-import java.io.File;
-
 import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.itstep.model.PojoObject1;
 import org.itstep.model.PojoObject2;
 import org.itstep.model.PojoObject3;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -1,20 +1,10 @@
 package org.itstep.dao;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
 import org.hibernate.Session;
-import org.hibernate.Transaction;
 import org.itstep.model.PojoObject1;
 import org.itstep.util.HibernateUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-
-import lombok.Getter;
-import lombok.Setter;
 
 @Repository
 public class PojoObject1DAO {
